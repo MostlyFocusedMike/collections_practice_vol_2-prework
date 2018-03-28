@@ -39,3 +39,5 @@ def organize_schools(schools)
     
   end
 end
+
+"flatiron school bk" => {:location => "NYC"},
