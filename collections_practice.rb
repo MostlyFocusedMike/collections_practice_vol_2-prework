@@ -29,6 +29,9 @@ def merge_data(keys,data)
     hash.merge(keys[i])  
   end
 end
+[{:first_name => "blake"},
+ {:first_name => "ashley"}
+]
 
 [{"blake" => {
     :awesomeness => 10,
