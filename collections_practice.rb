@@ -25,7 +25,7 @@ def count_elements(hashes)
 end
 
 def merge_data(data1,data2)
-
+  data1 + data2
 end
 
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
