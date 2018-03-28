@@ -25,7 +25,8 @@ def count_elements(hashes)
 end
 
 def merge_data(keys,data)
-
+  puts keys.class
+  puts data.class
   
 end
 
