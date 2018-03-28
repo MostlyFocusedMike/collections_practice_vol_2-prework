@@ -32,7 +32,7 @@ def merge_data(keys,data)
   end
   
   keys.map do |hash|
-    hash.merge
+    hash.merge(data[0]["blake"])
   end
 end
 
