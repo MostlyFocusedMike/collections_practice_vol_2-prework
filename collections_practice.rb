@@ -35,3 +35,5 @@ def find_cool(cool)
     hash[:temperture] == "cool"
   end
 end
+
+binding.pry
