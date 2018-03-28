@@ -27,8 +27,7 @@ end
 def merge_data(keys,data)
   puts keys.class
   puts data.class
-  
+  binding.pry
 end
 
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
-binding.pry
