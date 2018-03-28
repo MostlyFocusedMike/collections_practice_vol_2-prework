@@ -17,7 +17,7 @@ def remove_non_strings(arr)
   arr.delete_if {|val| val.class != String}
 end
 
-def count_elements(*hashes)
+def count_elements(hashes)
   hashes.uniq
 end
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
