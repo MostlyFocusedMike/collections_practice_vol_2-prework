@@ -35,7 +35,8 @@ def find_cool(cool)
 end
 
 def organize_schools(schools)
-  schools.each do |school|
+  schools.each do |name, hash|
+    new_hash[hash[:location]]
     
   end
 end
