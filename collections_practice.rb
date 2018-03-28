@@ -31,4 +31,4 @@ def merge_data(keys,data)
 end
 
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
-# binding.pry
+binding.pry
