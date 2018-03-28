@@ -18,7 +18,7 @@ def remove_non_strings(arr)
 end
 
 def count_elements(hashes)
-  fin.uniq.map do |item|
+  hashes.uniq.map do |item|
     item[:count] = hashes.count(item)
   end
 end
