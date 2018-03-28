@@ -27,7 +27,6 @@ end
 def merge_data(keys,data)
   counter = 0
   data[0].map do |name,hash|
-    
     hash.merge!(keys[counter])
     counter += 1
     hash
