@@ -18,8 +18,11 @@ def remove_non_strings(arr)
 end
 
 def count_elements(hashes)
+  hashes.uniq!
+  hashes.each do |item|
+    
+  end
   
-  hashes.uniq
 end
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 binding.pry
