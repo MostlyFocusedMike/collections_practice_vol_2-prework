@@ -25,9 +25,7 @@ def count_elements(hashes)
 end
 
 def merge_data(keys,data)
-  keys.map do |hash|
-    hash.merge(data[0][hash[:first_name]])
-  end
+  keys.map {|hash| hash.merge(data[0][hash[:first_name]])}
 end
 
 def find_cool(cool)
