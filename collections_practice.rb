@@ -19,8 +19,8 @@ end
 
 def count_elements(hashes)
   fin = hashes.uniq
-  hashes.each do |item|
-    
+  fin.each do |item|
+    hashes.count(item)
   end
   
 end
