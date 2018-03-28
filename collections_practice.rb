@@ -20,6 +20,7 @@ end
 def count_elements(hashes)
   hashes.uniq.map do |item|
     item[:count] = hashes.count(item)
+    item
   end
 end
 
