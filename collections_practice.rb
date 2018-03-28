@@ -25,4 +25,4 @@ def count_elements(hashes)
 end
 
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
-binding.pry
+# binding.pry
