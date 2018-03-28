@@ -24,5 +24,9 @@ def count_elements(hashes)
   end
 end
 
+def merge_data(data1,data2)
+  return data1.merge(data2)
+end
+
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 # binding.pry
