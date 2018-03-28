@@ -25,8 +25,8 @@ def count_elements(hashes)
 end
 
 def merge_data(keys,data)
-  data[0].each_with_index.map do |hash,i|
-    hash.merge(keys[i])
+  data[0] do |hash,i|
+    hash.merge(keys[0])
   end
 end
 [{:first_name => "blake"},
