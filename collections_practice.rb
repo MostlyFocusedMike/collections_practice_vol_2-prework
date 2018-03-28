@@ -30,7 +30,12 @@ def merge_data(keys,data)
     counter += 1
     hash.merge!(keys[counter - 1])
   end
+  
+  keys.map do |hash|
+    hash.merge
+  end
 end
+
 
 [{:first_name => "blake"},
  {:first_name => "ashley"}
