@@ -23,7 +23,6 @@ def count_elements(hashes)
     item[:count] = hashes.count(item)
     item
   end
-  return fin
 end
 
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
