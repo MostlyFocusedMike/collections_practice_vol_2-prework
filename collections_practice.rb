@@ -22,7 +22,7 @@ def count_elements(hashes)
   fin.map do |item|
     hashes.count(item)
   end
-  
 end
+
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 binding.pry
