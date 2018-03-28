@@ -40,7 +40,7 @@ def organize_schools(schools)
     new_hash[hash[:location]] ||= []
     new_hash[hash[:location]] << name
   end
-  new_hash
+  return new_hash
 end
 
 # "flatiron school bk" => {:location => "NYC"}
