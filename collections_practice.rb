@@ -32,8 +32,8 @@ end
 
 def find_cool(cool)
   cool.select do |hash|
+    binding.pry
     hash[:temperture] == "cool"
   end
 end
 
-binding.pry
