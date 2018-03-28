@@ -18,9 +18,11 @@ def remove_non_strings(arr)
 end
 
 def count_elements(hashes)
-  hashes.uniq.map do |item|
+  fin = hashes.uniq
+  fin.map do |item|
     item[:count] = hashes.count(item)
   end
+  return fin
 end
 
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
