@@ -25,7 +25,10 @@ def count_elements(hashes)
 end
 
 def merge_data(keys,data)
-  keys[1]
+  data.each do |hash|
+    hash.merge(keys)  
+  end
+  
   puts data.class
   binding.pry
 end
