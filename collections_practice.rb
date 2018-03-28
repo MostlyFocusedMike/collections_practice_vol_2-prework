@@ -19,7 +19,7 @@ end
 
 def count_elements(hashes)
   fin = hashes.uniq
-  fin.each do |item|
+  fin.map do |item|
     hashes.count(item)
   end
   
