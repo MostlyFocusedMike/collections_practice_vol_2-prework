@@ -25,11 +25,11 @@ def count_elements(hashes)
 end
 
 def merge_data(keys,data)
-  counter = 0
-  data[0].map do |name,hash|
-    counter += 1
-    hash.merge!(keys[counter - 1])
-  end
+  # counter = 0
+  # data[0].map do |name,hash|
+  #   counter += 1
+  #   hash.merge!(keys[counter - 1])
+  # end
   
   keys.map do |hash|
     hash.merge(data[0][hash[:first_name]])
