@@ -41,4 +41,5 @@ def organize_schools(schools)
   end
 end
 
-"flatiron school bk" => {:location => "NYC"},
+# "flatiron school bk" => {:location => "NYC"}
+# {"NYC"=>["flatiron school bk", "flatiron school", "general assembly"], "SF"=>["dev boot camp", "Hack Reactor"], "Chicago"=>["dev boot camp chicago"]}
