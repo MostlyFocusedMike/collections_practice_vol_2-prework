@@ -21,6 +21,7 @@ def count_elements(*hashes)
   hashes.map do |hash|
     hashes.count(hash)
   end
+  hashes.uniq
 end
 hashes = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 binding.pry
