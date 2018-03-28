@@ -37,8 +37,7 @@ end
 def organize_schools(schools)
   new_hash ={}
   schools.each do |name, hash|
-    puts hash[:location]
-    new_hash[] ||= []
+    new_hash[hash[:location]] ||= []
     new_hash[hash[:location]] << name
   end
 end
