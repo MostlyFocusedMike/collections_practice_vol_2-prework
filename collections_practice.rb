@@ -18,7 +18,7 @@ def remove_non_strings(arr)
 end
 
 def count_elements(hashes)
-  hashes.uniq!
+  fin = hashes.uniq
   hashes.each do |item|
     
   end
