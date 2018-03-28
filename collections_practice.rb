@@ -29,7 +29,6 @@ def merge_data(keys,data)
   data[0].map do |name,hash|
     counter += 1
     hash.merge!(keys[counter - 1])
-    
   end
 end
 [{:first_name => "blake"},
